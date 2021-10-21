@@ -20,7 +20,9 @@ class MainActivity : AppCompatActivity() {
         age =21
         age = 22
 
-        age = age + 1
+        var hello = "hello"
+
+        age = age + 22
         age += 1
         age ++
 
