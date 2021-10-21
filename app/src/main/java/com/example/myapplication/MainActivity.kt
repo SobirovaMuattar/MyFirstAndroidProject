@@ -1,9 +1,8 @@
 package com.example.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,21 +16,11 @@ class MainActivity : AppCompatActivity() {
         var age: Int = 20
         var height: Double = 163.0
 
-        age =21
-        age = 22
-
-        var hello = "hello"
-
-        age = age + 22
-        age += 1
-        age ++
-
         val summary: String = "name: $name  surname: $surname age: $age height: $height"
 
         output.text=summary
 
        Log.d("MainActivity", summary)
-        Toast.makeText(baseContext, summary, Toast.LENGTH_LONG).show()
 
     }
 }
